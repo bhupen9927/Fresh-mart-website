@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>document</title>
+    </head>
+    <body>
+        <h3>array elemnt sum</h3>
+        <p>click the burton to demonstrate the prompt box</p>
+        <button onclick="myFunction()">try it</button>
+        <p id="demo"></p>
+        <script>
+            function myFunction(){
+            var array = [1,2,3,4,5,6],
+            s=0,
+            i;
+            for(i = 0; i<array.length; i=i+1){
+                s=s+array[i]
+            }
+            document.getElementById("demo").innerHTML = "sum is " + s;
+            }
+        </script>
+    </body>
+</html>
